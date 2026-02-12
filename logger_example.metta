@@ -1,6 +1,7 @@
 ;; Usage example of the logger library
 
 ;; Import logger library
+!(import! &self (library lib_import))
 !(git-import! "https://github.com/ngeiswei/petta_lib_logger" "swipl pack install log4p")
 
 ;; Get current filepath
