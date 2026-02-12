@@ -3,7 +3,6 @@
 ;; Import logger library
 !(import! &self (library lib_import))
 !(git-import! "https://github.com/patham9/petta_lib_logger")
-!(translatePredicate (pack_install log4p))
 !(import! &self (library lib_logger))
 
 ;; Get current filepath

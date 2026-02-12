@@ -78,6 +78,7 @@
 ;;   formatted message.
 
 ;; Import prolog logger library
+!(translatePredicate (pack_install log4p ((Predicate (interactive False)))))
 !(import! &self (library lib_import))
 !(import_prolog_functions_from_file (library lib_logger.pl)
                                     (logger-filepath
